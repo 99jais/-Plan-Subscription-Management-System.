@@ -1,0 +1,79 @@
+.auth-form-main {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #282c34;
+
+
+    .form-main {
+        padding: 20px;
+        border: whitesmoke;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+
+        .form-header {
+            color: white;
+            padding-bottom: 20px;
+        }
+
+        .form-fields-div {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+            width: 100%;
+            padding-bottom: 10px;
+    
+            .form-text-field { 
+                width: 80%;
+                margin-bottom: 20px;
+                padding: 5px 10px;
+                border-radius: 5px;
+                border: 2px solid #5E5DF0;
+            }
+    
+            .form-text-field:focus {
+                border: 2px solid #5E5DF0 !important;
+                outline: none;
+                box-shadow: #5E5DF0 0 10px 20px -10px;
+            }
+        }
+
+        .form-button-div {
+            width: 100%;
+            text-align: center;
+            padding-bottom: 10px;
+
+            button {
+                background: #5E5DF0;
+                border-radius: 999px;
+                box-shadow: #5E5DF0 0 10px 20px -10px;
+                box-sizing: border-box;
+                color: #FFFFFF;
+                cursor: pointer;
+                font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                opacity: 1;
+                outline: 0 solid transparent;
+                padding: 8px 18px;
+                user-select: none;
+                -webkit-user-select: none;
+                touch-action: manipulation;
+                width: fit-content;
+                word-break: break-word;
+                border: 0;
+                width: 50%;
+            }
+        }
+    }
+}

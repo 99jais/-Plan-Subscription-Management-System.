@@ -1,0 +1,32 @@
+.plan-cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.plan-cards-paginator {
+    
+    ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+
+        li {
+            padding: 5px;
+            color: white;
+            border: 1px solid #5E5DF0;
+            margin-right: 3px;
+            cursor: pointer;
+        }
+
+        .disabled {
+            border-color: white;
+        }
+
+        .selected {
+            background-color: #5E5DF0;
+        }
+    }
+}

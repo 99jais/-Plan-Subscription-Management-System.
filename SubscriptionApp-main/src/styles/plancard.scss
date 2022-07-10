@@ -1,0 +1,73 @@
+.plan-card-main {
+    border: 0.5px solid white;
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #282c34;
+
+    .plan-card-header {
+        word-wrap: break-word;
+        color: white;
+        width: 100%;
+    }
+
+    .plan-card-desc {
+        color: whitesmoke;
+        padding-bottom: 15px;
+        width: 100%;
+        word-wrap: break-word;
+    }
+
+    .plan-card-footer {
+        color: whitesmoke;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        .plan-card-dates {
+            font-size: 12px;
+        }
+    }
+
+    .plan-card-buttons-sect {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 5px;
+
+        .plan-card-buttons {
+            background: #5E5DF0;
+            border-radius: 999px;
+            box-shadow: #5E5DF0 0 10px 20px -10px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            opacity: 1;
+            outline: 0 solid transparent;
+            padding: 8px 18px;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: fit-content;
+            word-break: break-word;
+            border: 0;
+        }
+    }
+
+}
